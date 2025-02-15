@@ -1,0 +1,84 @@
+  tran
+      cora	num_exp:  1
+tran后teacher:  SAGE
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8295	
+  citeseer	num_exp:  1
+tran后teacher:  SAGE
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\citeseer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\citeseer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7050	
+    pubmed	num_exp:  1
+tran后teacher:  SAGE
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\pubmed\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\pubmed\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7684	
+a-computer	num_exp:  1
+tran后teacher:  SAGE
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\a-computer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\a-computer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8162	
+   a-photo	num_exp:  1
+tran后teacher:  SAGE
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\a-photo\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\a-photo\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.9127	
+
+   ind
+      cora	num_exp:  1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8150	 0.8197	
+  citeseer	num_exp:  1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.6872	 0.7017	
+    pubmed	num_exp:  1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7620	 0.7611	
+a-computer	num_exp:  1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8210	 0.8218	
+   a-photo	num_exp:  1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.9217	 0.9153	
+

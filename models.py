@@ -14,23 +14,23 @@ class MLP(nn.Module):
         dropout_ratio,
         norm_type="none",
     ):
-        super(MLP, self).__init__()
-        self.num_layers = num_layers
+        super(MLP, self).__init__() #父类（nn.Module）的初始化方法
+        self.num_layers = num_layers #将传入的参数存储在本类对象中
         self.norm_type = norm_type
-        self.dropout = nn.Dropout(dropout_ratio)
-        self.layers = nn.ModuleList()
-        self.norms = nn.ModuleList()
+        self.dropout = nn.Dropout(dropout_ratio) #正则化技术Dropout（在训练时随机关闭dropout_ratio比例的节点）
+        self.layers = nn.ModuleList()  #nn.ModuleList()创建了一个ModuleList对象，是 nn.Module 的子类——用于包含其他模块，并按照它们在列表中的顺序进行注册（即用于存储模型的所有层）
+        self.norms = nn.ModuleList() #用于存储模型的所有标准化层
 
-        if num_layers == 1:
+        if num_layers == 1:  # 若只有1层，直接连接输入和输出（模型层数=隐藏层+输出层）
             self.layers.append(nn.Linear(input_dim, output_dim))
-        else:
-            self.layers.append(nn.Linear(input_dim, hidden_dim))
-            if self.norm_type == "batch":
+        else:  # 若有多层，连接输入和隐藏层，隐藏层和隐藏层，隐藏层和输出层
+            self.layers.append(nn.Linear(input_dim, hidden_dim)) #全连接层
+            if self.norm_type == "batch":  #根据标准化类型，选择不同的标准化层
                 self.norms.append(nn.BatchNorm1d(hidden_dim))
             elif self.norm_type == "layer":
                 self.norms.append(nn.LayerNorm(hidden_dim))
 
-            for i in range(num_layers - 2):
+            for i in range(num_layers - 2): 
                 self.layers.append(nn.Linear(hidden_dim, hidden_dim))
                 if self.norm_type == "batch":
                     self.norms.append(nn.BatchNorm1d(hidden_dim))
@@ -39,26 +39,23 @@ class MLP(nn.Module):
 
             self.layers.append(nn.Linear(hidden_dim, output_dim))
 
-    def forward(self, feats):
+    def forward(self, feats): #MLP的前向传播函数
         h = feats
         h_list = []
-        for l, layer in enumerate(self.layers):
-            h = layer(h)
-            if l != self.num_layers - 1:
-                h_list.append(h)
-                if self.norm_type != "none":
+        for l, layer in enumerate(self.layers): #遍历每一层，l是层索引、layer是层对象
+            h = layer(h) #将h传入当前层，得到新的h
+            if l != self.num_layers - 1: #若不是最后一层
+                h_list.append(h) #将当前层的输出h存入h_list
+                if self.norm_type != "none": #若有标准化层，就对输出h进行标准化
                     h = self.norms[l](h)
-                h = F.relu(h)
-                h = self.dropout(h)
+                h = F.relu(h) #对h使用激活函数ReLU
+                h = self.dropout(h) #对h使用Dropout
         return h_list, h
 
-
 """
-Adapted from the SAGE implementation from the official DGL example
+Adapted from the SAGE implementation from the official DGL example  由官方DGL示例中的SAGE实现改编
 https://github.com/dmlc/dgl/blob/master/examples/pytorch/ogb/ogbn-products/graphsage/main.py
 """
-
-
 class SAGE(nn.Module):
     def __init__(
         self,
@@ -125,7 +122,7 @@ class SAGE(nn.Module):
         feats : The input feats of entire node set.
         """
         device = feats.device
-        for l, layer in enumerate(self.layers):
+        for l, layer in enumerate(self.layers): #遍历每一层，l是层索引、layer是层对象
             y = torch.zeros(
                 feats.shape[0],
                 self.hidden_dim if l != self.num_layers - 1 else self.output_dim,
@@ -146,7 +143,6 @@ class SAGE(nn.Module):
 
             feats = y
         return y
-
 
 class GCN(nn.Module):
     def __init__(
@@ -197,7 +193,6 @@ class GCN(nn.Module):
                     h = self.norms[l](h)
                 h = self.dropout(h)
         return h_list, h
-
 
 class GAT(nn.Module):
     def __init__(
@@ -278,7 +273,6 @@ class GAT(nn.Module):
                 h = h.mean(1)
         return h_list, h
 
-
 class APPNP(nn.Module):
     def __init__(
         self,
@@ -343,24 +337,24 @@ class APPNP(nn.Module):
         h = self.propagate(g, h)
         return h_list, h
 
-
 class Model(nn.Module):
     """
-    Wrapper of different models
+    不同模型类的包装类，用于实例化不同的模型类
     """
 
     def __init__(self, conf):
-        super(Model, self).__init__()
+        super(Model, self).__init__() #调用父类的构造函数（Python面向对象编程中的一个常见模式，用于确保父类的初始化代码被正确执行）
         self.model_name = conf["model_name"]
-        if "MLP" in conf["model_name"]:
-            self.encoder = MLP(
-                num_layers=conf["num_layers"],
+        #根据传入的配置中的模型名称，选择初始化模型
+        if "MLP" in conf["model_name"]:  # MLP
+            self.encoder = MLP(  #本文件中的自定义类 MLP（用于构建MLP模型）
+                num_layers=conf["num_layers"], #传入模型层数、输入层维度、隐藏层维度、输出层维度(标签向量大小)、dropout比例、正则化类型
                 input_dim=conf["feat_dim"],
                 hidden_dim=conf["hidden_dim"],
                 output_dim=conf["label_dim"],
                 dropout_ratio=conf["dropout_ratio"],
                 norm_type=conf["norm_type"],
-            ).to(conf["device"])
+            ).to(conf["device"]) #model.to(device)将模型的参数转移到GPU上
         elif "SAGE" in conf["model_name"]:
             self.encoder = SAGE(
                 num_layers=conf["num_layers"],

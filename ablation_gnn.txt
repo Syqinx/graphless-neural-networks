@@ -1,0 +1,57 @@
+Teacher
+  tran
+   GCN
+      cora	num_exp:  1
+tran后teacher:  GCN
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\GCN\seed_0
+get_conf前teacher:  GCN
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\GCN\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'weight_decay': 0.001, 'model_name': 'GCN'}
+ 0.8300	
+
+   GAT
+      cora	num_exp:  1
+tran后teacher:  GAT
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\GAT\seed_0
+get_conf前teacher:  GAT
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\GAT\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'weight_decay': 0.01, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GAT'}
+ 0.8342	
+
+ APPNP
+      cora	num_exp:  1
+tran后teacher:  APPNP
+tran后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\APPNP\seed_0
+get_conf前teacher:  APPNP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\transductive\cora\APPNP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.5, 'weight_decay': 0.01, 'model_name': 'APPNP'}
+ 0.8412	
+
+
+Student
+  tran
+   GCN
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='GCN', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.7878	
+
+   GAT
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='GAT', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.8117	
+
+ APPNP
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='APPNP', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.8103	
+
+

@@ -1,0 +1,409 @@
+Teacher
+0.1
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8021	 0.8150	
+  citeseer	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.6782	 0.6934	
+    pubmed	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.4758	 0.4715	
+a-computer	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8157	 0.8234	
+   a-photo	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.9228	 0.9146	
+
+0.2
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7418	 0.7237	
+  citeseer	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.6001	 0.6077	
+    pubmed	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.3995	 0.3818	
+a-computer	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\a-computer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.8093	 0.8109	
+   a-photo	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\a-photo\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.9159	 0.9146	
+
+0.3
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.6270	 0.5808	
+  citeseer	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\citeseer\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5407	 0.5055	
+    pubmed	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\pubmed\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.3885	 0.3716	
+a-computer	   a-photo	Teacher
+0.1
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7974	 0.8080	
+0.2
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.7307	 0.7354	
+0.3
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.6270	 0.5738	
+0.4
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5995	 0.5340	
+0.5
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5749	 0.4965	
+0.6
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5591	 0.4731	
+0.7
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5644	 0.4520	
+0.8
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5457	 0.4567	
+0.9
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5211	 0.4754	
+  1
+      cora	num_exp:  1
+feature_noise后teacher:  SAGE
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0
+ind后teacher:  SAGE
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0\inductive\split_rate_0.2\cora\SAGE\seed_0
+get_conf前teacher:  SAGE
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0\inductive\split_rate_0.2\cora\SAGE\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'fan_out': '5,5', 'learning_rate': 0.01, 'dropout_ratio': 0, 'weight_decay': 0.0005, 'model_name': 'SAGE'}
+ 0.5369	 0.4543	
+Student
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.1, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.8068	 0.6792	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.2, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.7488	 0.5246	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.3, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.6511	 0.3466	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.4, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5948	 0.2272	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.5, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5550	 0.1897	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.6, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5322	 0.1920	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.7, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5527	 0.1710	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.8, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5281	 0.1429	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0.9, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.4965	 0.1593	
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=1.0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=False, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+特征拼接完毕！
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.5193	 0.1452	
+Teacher
+0.1
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.1\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.4883	 0.5105	
+0.2
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.2\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.3255	 0.3279	
+0.3
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.3\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1780	 0.1967	
+0.4
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.4\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1704	 0.1499	
+0.5
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.5\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1475	 0.1429	
+0.6
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.6\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1399	 0.1311	
+0.7
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.7\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1364	 0.1663	
+0.8
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.8\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1341	 0.1405	
+0.9
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_0.9\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1364	 0.1382	
+  1
+      cora	num_exp:  1
+feature_noise后teacher:  MLP
+feature_noise后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0
+ind后teacher:  MLP
+ind后output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0\inductive\split_rate_0.2\cora\MLP\seed_0
+get_conf前teacher:  MLP
+get_conf前output_path:  D:\Files\kuangStudy\9、机器学习与大数据\毕设\code2-graphless-neural-networks\outputs\noisy_features\noise_1.0\inductive\split_rate_0.2\cora\MLP\seed_0
+训练配置：
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.1183	 0.1171	

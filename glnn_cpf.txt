@@ -1,0 +1,54 @@
+  tran
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.8159	
+  citeseer	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='citeseer', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.001, 'dropout_ratio': 0.1, 'model_name': 'MLP'}
+ 0.7039	
+    pubmed	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='pubmed', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.005, 'weight_decay': 0, 'dropout_ratio': 0.4, 'model_name': 'MLP'}
+ 0.7799	
+a-computer	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='a-computer', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.3, 'model_name': 'MLP'}
+ 0.8304	
+   a-photo	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='a-photo', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='tran', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.005, 'weight_decay': 0.002, 'dropout_ratio': 0.3, 'model_name': 'MLP'}
+ 0.9275	
+
+   ind
+      cora	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='cora', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.005, 'dropout_ratio': 0.6, 'model_name': 'MLP'}
+ 0.8197	 0.7424	
+  citeseer	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='citeseer', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.01, 'weight_decay': 0.001, 'dropout_ratio': 0.1, 'model_name': 'MLP'}
+ 0.6851	 0.6796	
+    pubmed	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='pubmed', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.005, 'weight_decay': 0, 'dropout_ratio': 0.4, 'model_name': 'MLP'}
+ 0.7746	 0.7695	
+a-computer	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='a-computer', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.3, 'model_name': 'MLP'}
+ 0.8268	 0.8094	
+   a-photo	Namespace(batch_size=512, compute_min_cut=False, console_log=False, data_path='./data', dataset='a-photo', device=-1, dropout_ratio=0, eval_interval=1, exp_setting='ind', fan_out='5,5', feature_aug_k=0, feature_noise=0, hidden_dim=64, labelrate_train=20, labelrate_val=30, lamb=0, learning_rate=0.01, log_level=20, max_epoch=200, model_config_path='./train.conf.yaml', norm_type='none', num_exp=1, num_layers=2, num_workers=0, out_t_path='outputs', output_path='outputs', patience=50, save_results=True, seed=0, split_idx=0, split_rate=0.2, student='MLP', teacher='SAGE', weight_decay=0.0005)
+ÌØÕ÷Æ´½ÓÍê±Ï£¡
+ÑµÁ·ÅäÖÃ£º
+{'num_layers': 2, 'hidden_dim': 128, 'learning_rate': 0.005, 'weight_decay': 0.002, 'dropout_ratio': 0.3, 'model_name': 'MLP'}
+ 0.9363	 0.9026	
+
